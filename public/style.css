@@ -1,0 +1,48 @@
+.container {
+ /* width: 95vw;
+  height: 95vh;*/
+  margin: 0 auto;
+}
+
+
+.table {
+  display: table;
+  /*height:100%;*/
+  /*width: 100%;*/
+  background-color: blue;
+  /*border-spacing: 30px;*/
+}
+
+.table-row {
+  display: table-row;
+ 
+  background-color: gray;
+
+}
+
+.cell {
+  display: table-cell;
+  border: 1px green solid;
+  padding:0;
+ 
+  background-color: #aaa;
+}
+
+.walkway {
+  display: table-cell;
+  border: 1px green solid;
+  width: 40px;
+ 
+  background-color: #aaa;
+}
+
+.corridor {
+  display: table-row;
+  
+  height: 40px;
+ 
+}
+img {
+  width:200px;
+  height: 150px;
+}
